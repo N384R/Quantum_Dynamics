@@ -27,7 +27,7 @@ class System:
                  couplings: float | list[float] | np.ndarray = None,
                  dipole_moments: float | list[float] | np.ndarray = None,
                  ):
-        self._validity = False
+        self.is_valid = False
         self._quantities = {}
         self.energies = energies
         self.couplings = couplings
@@ -67,11 +67,11 @@ class System:
             try:
                 if (self.energies.size == self.dipole_moments.size
                         == self.couplings.shape[0] == self.system_size):
-                    self._validity = True
+                    self.is_valid = True
                 else:
-                    self._validity = False
+                    self.is_valid = False
             except KeyError:
-                self._validity = False
+                self.is_vaild = False
             return result
         return wrapper
 
@@ -133,7 +133,7 @@ class System:
                   ):
         '''Sets the state of the system.
         '''
-        if not self._validity:
+        if not self.is_valid:
             raise ValueError('System is not valid.')
         if state_type == 'ground':
             state = 0
@@ -172,7 +172,7 @@ class System:
         '''
         def apply_tensor(op, pos):
             return tensor(*[I] * (self.system_size - pos - 1), op, *[I] * pos)
-        if not self._validity:
+        if not self.is_valid:
             raise ValueError('System is not valid.')
         sz = sigmaz()
         sm = destroy(2)
@@ -191,7 +191,7 @@ class System:
     def get_e_state(self):
         '''Returns the ket state of the system.
         '''
-        if not self._validity:
+        if not self.is_valid:
             raise ValueError('System is not valid.')
         system_dims = [2] * self.system_size
         if self.state_type == 'ground':
