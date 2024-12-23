@@ -162,7 +162,7 @@ def __propagation(qc: QuantumCircuit,
                   shots: int | None,
                   ):
     if dt is None:
-        if np.isscaler(time):
+        if np.isscalar(time):
             dt_Trotter = time / Trotter_number
         else:
             dt_Trotter = (time[1] - time[0]) / Trotter_number

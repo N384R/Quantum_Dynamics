@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage{lipsum}
+\usepackage{qcircuit}
+\usepackage{braket}
+
+\title{\textbf{How to use \LaTeX ?}}
+\author{\textbf{Jeyun Ju} \\ Department of Chemistry, KAIST}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This is a simple example to show how to use \LaTeX. We will learn how to write a simple document, how to use packages, and how to write mathematical equations. We will also learn how to use the \texttt{qcircuit} package to draw quantum circuits.
+\end{abstract}
+
+\section{Basic Quantum Circuits}
+The quantum circuit for the Bell state $\ket{\Phi^+}$ is shown below:
+\[
+\Qcircuit @C=1em @R=1em {
+& \gate{H} & \ctrl{1} & \qw & \meter \\
+& \qw & \targ & \qw & \meter
+}
+\]
+
+
+For an arbitrary gate, you can use the following:
+
+\begin{center}
+\begin{minipage}{0.3\textwidth}
+\[
+\Qcircuit @C=1em @R=1em {
+& \gate{U} & \qw
+}
+\]
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+\[
+\Qcircuit @C=1em @R=1em {
+& \multigate{1}{U} & \qw \\
+& \ghost{U} & \qw
+}
+\]
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+\[
+\Qcircuit @C=1em @R=1em {
+& \multigate{2}{U} & \qw \\
+& \ghost{U} & \qw \\
+& \ghost{U} & \qw
+}
+\]
+\end{minipage}
+\end{center}
+
+\section{Mathematical Equations}
+
+\section{Introduction}
+\lipsum[2]
+
+\end{document}

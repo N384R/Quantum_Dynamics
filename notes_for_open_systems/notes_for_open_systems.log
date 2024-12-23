@@ -1,0 +1,162 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/TeX Live for SUSE Linux) (preloaded format=pdflatex 2024.11.14)  15 NOV 2024 18:25
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/juu8242/GitHub/Quantum_Dynamics/notes_for_open_systems/notes_for_open_systems.tex
+(/home/juu8242/GitHub/Quantum_Dynamics/notes_for_open_systems/notes_for_open_systems.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/share/texmf/tex/latex/lipsum/lipsum.sty (/usr/share/texmf/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+ (/usr/share/texmf/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count187
+\l__pdf_internal_box=\box47
+)) (/usr/share/texmf/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/share/texmf/tex/latex/l3packages/xparse/xparse-generic.tex)))
+Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
+ (/usr/share/texmf/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
+)) (/usr/share/texmf/tex/latex/qcircuit/qcircuit.sty
+Package: qcircuit 2018/08/14
+ (/usr/share/texmf/tex/generic/xypic/xy.sty (/usr/share/texmf/tex/generic/xypic/xy.tex Bootstrap'ing: catcodes, docmode, (/usr/share/texmf/tex/generic/xypic/xyrecat.tex) (/usr/share/texmf/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen139
+\Y@c=\dimen140
+\U@c=\dimen141
+\D@c=\dimen142
+\L@c=\dimen143
+\R@c=\dimen144
+\Edge@c=\toks15
+\X@p=\dimen145
+\Y@p=\dimen146
+\U@p=\dimen147
+\D@p=\dimen148
+\L@p=\dimen149
+\R@p=\dimen150
+\Edge@p=\toks16
+\X@origin=\dimen151
+\Y@origin=\dimen152
+\X@xbase=\dimen153
+\Y@xbase=\dimen154
+\X@ybase=\dimen155
+\Y@ybase=\dimen156
+\X@min=\dimen157
+\Y@min=\dimen158
+\X@max=\dimen159
+\Y@max=\dimen160
+\lastobjectbox@=\box48
+\zerodotbox@=\box49
+\almostz@=\dimen161
+ direction,
+\d@X=\dimen162
+\d@Y=\dimen163
+\K@=\count188
+\KK@=\count189
+\Direction=\count190
+\K@dXdY=\dimen164
+\K@dYdX=\dimen165
+\xyread@=\read2
+\xywrite@=\write3
+\csp@=\count191
+\quotPTK@=\dimen166
+ utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks17
+\connectobjectbox@@=\box50
+ objects,
+\styletoks@=\toks18
+ decorations; kernel objects: directionals, circles, text; options; algorithms: directions, edges, connections;  Xy-pic loaded) (/usr/share/texmf/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+ (/usr/share/texmf/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+Package: xy 2013/10/06 Xy-pic version 3.8.9
+ (/usr/share/texmf/tex/generic/xypic/xypdf.tex  Xy-pic option: PDF driver v.1.7 loaded)) (/usr/share/texmf/tex/generic/xypic/xymatrix.tex  Xy-pic option: Matrix feature v.3.14
+\Row=\count192
+\Col=\count193
+\queue@=\toks19
+\queue@@=\toks20
+\qcount@=\count194
+\qcount@@=\count195
+\matrixsize@=\count196
+ loaded) (/usr/share/texmf/tex/generic/xypic/xyframe.tex  Xy-pic option: Frame and Bracket extension v.3.14 loaded) Xy-pic pdf driver: `frame' extension support (/usr/share/texmf/tex/generic/xypic/xypdf-fr.tex (/usr/share/texmf/tex/generic/xypic/xycurve.tex  Xy-pic option: Curve and Spline extension v.3.12 curve,
+\crv@cnt@=\count197
+\crvpts@=\toks21
+\splinebox@=\box51
+\splineval@=\dimen167
+\splinedepth@=\dimen168
+\splinetol@=\dimen169
+\splinelength@=\dimen170
+ circles,
+\L@=\dimen171
+ loaded) Xy-pic pdf driver: `curve' extension support (/usr/share/texmf/tex/generic/xypic/xypdf-cu.tex loaded) loaded) (/usr/share/texmf/tex/generic/xypic/xyarrow.tex  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded) (/usr/share/texmf/tex/generic/xypic/xyarc.tex  Xy-pic option: Circle, Ellipse, Arc feature v.3.8 circles, ellipses, elliptical arcs, loaded)) (/usr/share/texmf/tex/latex/braket/braket.sty) (/home/juu8242/GitHub/Quantum_Dynamics/notes_for_open_systems/notes_for_open_systems.aux)
+\openout1 = `notes_for_open_systems.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+Package xypdf Info: Line width: 0.39998pt on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 13.
+ <xymatrix 5x2 531> <xymatrix 3x1 143> <xymatrix 3x2 242> <xymatrix 3x3 322> [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/juu8242/GitHub/Quantum_Dynamics/notes_for_open_systems/notes_for_open_systems.aux) ) 
+Here is how much of TeX's memory you used:
+ 3278 strings out of 478994
+ 44151 string characters out of 5867237
+ 652789 words of memory out of 5000000
+ 20757 multiletter control sequences out of 15000+600000
+ 410559 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,23n,88p,1497b,1016s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on /home/juu8242/GitHub/Quantum_Dynamics/notes_for_open_systems/notes_for_open_systems.pdf (1 page, 104949 bytes).
+PDF statistics:
+ 48 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

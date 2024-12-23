@@ -1,1 +1,1 @@
-from .system import System
+from .frenkel_exciton import FrenkelExciton
